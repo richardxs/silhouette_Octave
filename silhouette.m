@@ -1,7 +1,7 @@
 function [si, h] = silhouette(X, clust, metric)
 
-% Nan Zhou
-% Transfer Matlab 'silhouette' into Octave function
+% N. Zhou
+% Code Matlab 'silhouette' into Octave function
 % Sichuan University, Macquarie University
 % zhnanx@gmail.com
 
