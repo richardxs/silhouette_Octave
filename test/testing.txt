@@ -1,10 +1,9 @@
 
-% examples below pass testing on MATLAB and Octave
+% examples below pass tests on MATLAB and Octave
 
 %testing example 1
-  load('test1Data.mat');
-  load('test1ClusterIdx.mat');
-  test1si = silhouette(WallTest', idxTest, 'cosine');
+  load('test1.mat');
+  test1si = silhouette(test1Data', test1ClusterIdx, 'cosine');
 %end
 
 
