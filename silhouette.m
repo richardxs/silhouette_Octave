@@ -28,7 +28,7 @@ function [si, h] = silhouette(X, clust, metric)
   endif
   
   % check metric
-  if (! exist("metric", "var"))
+  if (! exist('metric', 'var'))
     metric = 'sqEuclidean';
   endif
   
